@@ -11,7 +11,7 @@
 
 - name: play variable from files 
   hosts: localhost
-  vars_file:
+  vars_files:
     - var.yml
   tasks:
     - name: print play variable from file
