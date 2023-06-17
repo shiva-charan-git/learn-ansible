@@ -43,7 +43,7 @@
   hosts: localhost
   tasks:
     - name: Get uptime output
-      ansible.buitlin.shell: uptime
+      ansible.builtin.shell: uptime
       register: ouput
     
     - name: print output
