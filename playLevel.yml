@@ -29,4 +29,12 @@
       ansible.builtin.debug:
         msg: URL = {{ URL }}
      
+
+
+- name: variable  from  INV  
+  hosts: all
+  tasks:
+    - name: print play variable from INV
+      ansible.builtin.debug:
+        msg: URL = {{ URL }}
       
