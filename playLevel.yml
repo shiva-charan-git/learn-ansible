@@ -27,7 +27,7 @@
       vars:
         URL: task.explame.com
       ansible.builtin.debug:
-        msg: URL = {{ URL }}
+        msg: URL = {{ URL }} 
      
 
 
@@ -57,6 +57,8 @@
     - name: print status
       ansible.builtin.debug:  
         msg: "{{ status }}"
+
+
 
 
 
