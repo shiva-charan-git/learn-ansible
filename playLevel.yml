@@ -22,7 +22,7 @@
 
 - name: Task level variable from files 
   hosts: localhost
-   tasks:
+  tasks:
     - name: print play variable from file
       vars_files:
         URL: task.explame.com
