@@ -36,5 +36,5 @@
   tasks:
     - name: print play variable from INV
       ansible.builtin.debug:
-        msg: "URL = {{ URL }}", Hostname of server = {{ansible_hostname}}"
+        msg: "URL = {{ URL }}, Hostname of server = {{ansible_hostname}}"
       
