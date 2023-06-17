@@ -38,3 +38,14 @@
       ansible.builtin.debug:
         msg: "URL = {{ URL }}, Hostname of server = {{ansible_hostname}}"
       
+
+- name: Register a variable
+  hosts: localhost
+  tasks:
+    - name: Get uptime output
+      ansible.buitlin.shell: uptime
+      register: ouput
+    
+    - name: print output
+      ansible.builtin.debug:  
+        msg: "{{output}}"
