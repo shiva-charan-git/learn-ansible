@@ -9,7 +9,7 @@
 
 
 
-- name: playvariable from files 
+- name: play variable from files 
   hosts: localhost
   vars_file:
     - var.yml
